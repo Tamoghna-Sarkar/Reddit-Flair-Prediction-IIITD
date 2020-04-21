@@ -8,6 +8,8 @@ import re
 from nltk.corpus import stopwords
 import os
 import json
+from flask import render_template, request, make_response
+
 port = int(os.environ.get("PORT",5000))
 
 reddit = praw.Reddit(client_id='3SYchvDH__igSg', client_secret='ZT-laFvDosSedAE_qPJ0dnkGtdA', user_agent='Scrapping Reddit_data')
@@ -82,6 +84,5 @@ def automated_testing():
         return flask.render_template('automated_testing.html', result = json_object)
 """
 
-
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run()
