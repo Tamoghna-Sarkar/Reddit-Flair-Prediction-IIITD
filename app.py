@@ -8,6 +8,7 @@ import re
 from nltk.corpus import stopwords
 import os
 import json
+port = int(os.environ.get("PORT",5000))
 
 reddit = praw.Reddit(client_id='3SYchvDH__igSg', client_secret='ZT-laFvDosSedAE_qPJ0dnkGtdA', user_agent='Scrapping Reddit_data')
 subreddit = reddit.subreddit('india')
@@ -55,7 +56,7 @@ def main():
        prediction = predict(url)
        return flask.render_template('main.html', result = prediction)
 
-
+"""
 @app.route('/automated_testing', methods=['GET', 'POST'])
 def automated_testing():
 
@@ -79,6 +80,7 @@ def automated_testing():
         with open('qwerty.json','r') as xyz:
             json_object = json.load(xyz)
         return flask.render_template('automated_testing.html', result = json_object)
+"""
 
 
 if __name__ == '__main__':
