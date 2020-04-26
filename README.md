@@ -117,8 +117,8 @@ files = {'upload_file': open('file.txt','rb')}
 | MLP <br />       | 0.4583 |
 
 ## References
-[https://www.storybench.org/how-to-scrape-reddit-with-python/][1]
+* [https://www.storybench.org/how-to-scrape-reddit-with-python/][1]
 
-[https://nlp.stanford.edu/IR-book/html/htmledition/choosing-what-kind-of-classifier-to-use-1.html][2]
+* [https://nlp.stanford.edu/IR-book/html/htmledition/choosing-what-kind-of-classifier-to-use-1.html][2]
 
-[https://blog.cambridgespark.com/deploying-a-machine-learning-model-to-the-web-725688b851c7][3]
+* [https://blog.cambridgespark.com/deploying-a-machine-learning-model-to-the-web-725688b851c7][3]
