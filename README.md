@@ -45,12 +45,30 @@ After understanding the task in depth, and going through various open source doc
 4. Remove the bad words, unnecessary symbols and STOPWORDS from all the attributes except the url   by Cleaning.
 5. Everything should appear in lower cases now and in a string format.
 6. 5 attributes are being considered for the given task:
-a) Title
-b) Body
-c) URL
-d) Comments
-e) COMBINED which is an amalgamate of Title and Comments
+* Title
+*  Body
+* URL
+* Comments
+* COMBINED which is an amalgamate of Title and Comments
+7. The dataset is split into 70% train and 30% test data using train-test split.
+8. It is nextly converted into a Vector, TD-IDF form and then the following algorithms are applied on the dataset.
+* Naive-Bayes
+* Linear Support Vector Machine
+* Logistic Regression
+* Random Forest
+* MLP Classifier
+9. The best model created using the Linear SVM algorithm is saved and is used for prediction of the flair from the URL of the post.
 
+After careful observations throughout the overall prediction accuracies, the model has been created on the basis of COMBINED: Title+Comments, using Linear SVM algorithm.
+
+## Flair Prediction
+The saved model is loaded for predicting the flair once the post features (title, and comments) and have been cleaned, processed using NLTK. The returned result is displayed on the web-application, in this case the web-app is deployed on Heroku. An automated_testing facility is also included in app.py wherein the classifier prediction could be tested locally by just uploading a text file containing 1 R/India URL in it. All that has to be done is run the below code on your terminal:
+~~~~
+
+files = {'upload_file': open('file.txt','rb')}
+ r = requests.post(url, files=files)
+
+~~~~
 
 
 ## Results
