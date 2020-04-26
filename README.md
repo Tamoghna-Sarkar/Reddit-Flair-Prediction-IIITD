@@ -37,11 +37,21 @@ cd *name_of_yourenv*/
 ~~~~
 4. Install all the dependencies in the root directory  by executing pip install -r requirements.txt and then execute the app.py to run the FLask application on the local server.
 ## Approach
-After understanding the task in depth, and going through various opensource documentations available for text processing, text analysis and suitable ML Algorithms for text classification, I based my final approach using Linear Support Vector Machine Algorithm which demonstrated optimum accuracy during the training and testing phase. I have also tried implementing the Naive Bayes, Logistic Regression, MLP Classifier and Random Forest algorithms to check the accuracy of the model with these algorithms. The test accuracies that I obtained are attached below. The approach taken for the task are as follows:
+After understanding the task in depth, and going through various open source documentations available for text processing, text analysis and suitable ML Algorithms for text classification, I based my final approach using Linear Support Vector Machine Algorithm which demonstrated optimum accuracy during the training and testing phase. I have also tried implementing the Naive Bayes, Logistic Regression, MLP Classifier and Random Forest algorithms to check the accuracy of the model with these algorithms. The test accuracies that I obtained are attached below. The approach taken for the task are as follows:
 1. Collect R/India data keeping the limit as 80 posts per flair among the flairs present in R/India reddit page using the PRAW module. [1]
 2. Include attributes like the flair title, body, comments, and the url of the flair.
 3. Pre-process the title, comments, url and body by converting everything into format by using 
 *astype(str)* 
+4. Remove the bad words, unnecessary symbols and STOPWORDS from all the attributes except the url   by Cleaning.
+5. Everything should appear in lower cases now and in a string format.
+6. 5 attributes are being considered for the given task:
+a) Title
+b) Body
+c) URL
+d) Comments
+e) COMBINED which is an amalgamate of Title and Comments
+
+
 
 ## Results
 #### Title as Feature
