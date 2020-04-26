@@ -26,10 +26,10 @@ The directory is a FLASK web application hosted on Heroku servers. The descripti
 
 ## Project Workflow and Execution
 The web-application allows the user to enter a r/india URL and displays the predicted flair for the submitted post.
-1.Clone the repository using terminal 
+1. Clone the repository using terminal 
 https://github.com/Tamoghna-Sarkar/Reddit-Flair-Prediction-IIITD 
-2.Make sure that Python3 and pip are installed on the system.
-3.Create a virtual environment:
+2. Make sure that Python3 and pip are installed on the system.
+3. Create a virtual environment:
 *Emphasize*python3 -m venv *name*
 source *name* /bin/activate
 cd *name_of_yourenv*/
