@@ -30,9 +30,11 @@ The web-application allows the user to enter a r/india URL and displays the pred
 https://github.com/Tamoghna-Sarkar/Reddit-Flair-Prediction-IIITD 
 2. Make sure that Python3 and pip are installed on the system.
 3. Create a virtual environment:
-*Emphasize*python3 -m venv *name*
-source *name* /bin/activate
+~~~~
+python3 -m venv *name* 
+source *name* /bin/activate 
 cd *name_of_yourenv*/
+~~~~
 
 
 **Strong** __Strong__
