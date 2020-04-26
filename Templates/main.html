@@ -3,17 +3,19 @@
 <head>
 <title>Reddit Flair Detector</title>
 </head>
-<h1 align='center'>Hello!</h1>
-<h2 align='center'>ENTER THE URL HERE</h2>
+<h1 align='center'>REDDIT FLAIR PREDICTOR</h1>
+<p align='center' style="font-size:40px">Enter the URL of an r/india post below:</p>
 <body>
+    <div class="input" align="center">
     <form action="{{ url_for('main') }}" method="POST">
-        <input type="url" name="url" align="center">        
-        <input type="submit" align="center">
+        <input type="url" name="url" style="font-size:30px">        
+        <input type="submit" style="font-size:30px">
     </form>
     <div class="result" align="center">
             <br>
-            <br> Predicted Flair:
-               <p style="font-size:50px">{{ result }}</p>
+            <br> 
+		<p style="font-size:50px"> Predicted Flair:</p>
+               <p style="font-size:40px">{{ result }}</p>
     </div>
 </body>
-</html>   
+</html>
