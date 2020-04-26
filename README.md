@@ -1,7 +1,7 @@
 # Reddit-Flair-Prediction-IIITD
 
 
-# Results
+## Results
 #### Title as Feature
 | Machine Learning Algorithms  | Test Accuracy |
 | --------  | -------- |
