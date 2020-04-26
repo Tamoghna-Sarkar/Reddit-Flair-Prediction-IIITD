@@ -3,9 +3,12 @@ A Web Application that ineURLs from r/india as inputs and predicts the flair of 
 ## Directory Structure
 Python has been used to develop the application and several libraries have been implemented. The libraries are :
 
-PRAW \n
+PRAW
+
 SCIKIT-LEARN
+
 NUMPY
+
 NTLK
 PANDAS
 PICKLE
