@@ -4,31 +4,25 @@ A Web Application that ineURLs from r/india as inputs and predicts the flair of 
 Python has been used to develop the application and several libraries have been implemented. The libraries are :
 * PRAW
 * SCIKITLEARN
-- Item
-- Item
-
-PRAW
-Markup : * Bullet list
-
- 
-NUMPY
-NTLK
-PANDAS
-PICKLE
-STOPWORDS
-STRING
-RE
-FLASK
+* NUMPY
+* NLTK
+* PANDAS
+* PICKLE
+* STOPWORDS
+* STRING
+* RE
+* FLASK
 
 The scraped data is saved and loaded as a .CSV file and loaded as a .pkl file
+
 The directory is a FLASK web application hosted on Heroku servers. The description of  files and folders can be found below:
-Models: Folder containing the saved model.pkl file.
-Templates: Folder containing the HTML files.
-App.py: Main file responsible for starting up the Flask application.
-Procfile: File needed to host the application to Heroku.
-Requiremnets.txt:Containing all Python dependencies of the project.
-Data: Folder containing CSV files with scraped data that is pre-processed and cleaned.
-Jupyter Notebooks: Folder containing Jupyter Notebooks to collect Reddit India data, EDA and training of the Machine Learning model. Notebooks can be opened in Colaboratory by Google. Even Flair Detector and Predictors scripts are present here.
+* Models: Folder containing the saved model.pkl file.
+* Templates: Folder containing the HTML files.
+* App.py: Main file responsible for starting up the Flask application.
+* Procfile: File needed to host the application to Heroku.
+* Requiremnets.txt:Containing all Python dependencies of the project.
+* Data: Folder containing CSV files with scraped data that is pre-processed and cleaned.
+*Jupyter Notebooks: Folder containing Jupyter Notebooks to collect Reddit India data, EDA and training of the Machine Learning model. Notebooks can be opened in Colaboratory by Google. Even Flair Detector and Predictors scripts are present here.
 
 ## Project Workflow and Execution
 The web-application allows the user to enter a r/india URL and displays the predicted flair for the submitted post.
