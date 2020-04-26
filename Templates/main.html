@@ -1,18 +1,19 @@
 <!doctype html>
 <html>
 <head>
-<title>Web app name</title>
+<title>Reddit Flair Detector</title>
 </head>
-<h1>Hello!</h1>
-<h1>ENTER THE URL HERE</h1>
+<h1 align='center'>Hello!</h1>
+<h2 align='center'>ENTER THE URL HERE</h2>
 <body>
     <form action="{{ url_for('main') }}" method="POST">
-        <input type="url" name="url">        
-        <input type="submit">
+        <input type="url" name="url" align="center">        
+        <input type="submit" align="center">
     </form>
     <div class="result" align="center">
             <br>
             <br> Predicted Flair:
                <p style="font-size:50px">{{ result }}</p>
     </div>
-    
+</body>
+</html>   
