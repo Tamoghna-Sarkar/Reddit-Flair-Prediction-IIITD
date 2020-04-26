@@ -41,7 +41,7 @@ After understanding the task in depth, and going through various opensource docu
 1. Collect R/India data keeping the limit as 80 posts per flair among the flairs present in R/India reddit page using the PRAW module. [1]
 2. Include attributes like the flair title, body, comments, and the url of the flair.
 3. Pre-process the title, comments, url and body by converting everything into format by using 
-*Emphasize* astype(str)
+*Emphasize* _astype(str)_
 ## Results
 #### Title as Feature
 | Machine Learning Algorithms  | Test Accuracy |
