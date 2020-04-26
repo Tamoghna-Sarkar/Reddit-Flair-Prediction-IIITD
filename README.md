@@ -42,6 +42,7 @@ After understanding the task in depth, and going through various opensource docu
 2. Include attributes like the flair title, body, comments, and the url of the flair.
 3. Pre-process the title, comments, url and body by converting everything into format by using 
 *Emphasize* _astype(str)_
+*astype(str)* _emphasize_
 ## Results
 #### Title as Feature
 | Machine Learning Algorithms  | Test Accuracy |
