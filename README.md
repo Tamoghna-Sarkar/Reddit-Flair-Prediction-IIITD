@@ -2,4 +2,4 @@
 
 | Header 1  | Header 2 |
 | --------  | -------- |
-| data      | Some long data that <br /> spans multiple lines |
+| dataSome long data that <br /> spans multiple lines      | data |
