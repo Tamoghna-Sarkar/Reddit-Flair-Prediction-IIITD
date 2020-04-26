@@ -1,5 +1,5 @@
 # Reddit-Flair-Prediction-IIITD
 
-| Header 1  | Header 2 |
+| Machine Learning Algorithms  | Test Accuracy |
 | --------  | -------- |
 | dataSome long data that <br /> spans multiple lines      | data |
