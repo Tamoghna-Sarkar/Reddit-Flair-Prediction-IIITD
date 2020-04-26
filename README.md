@@ -1,5 +1,5 @@
 # Reddit-Flair-Prediction-IIITD
-A Web Application that ineURLs from r/india as inputs and predicts the flair of the post based on a Machine Learning model created using the Linear Support Vector Machine Algorithm. The application is hosted on Heroku Cloud Platform and could be tried at https://sai9.herokuapp.com/ . It also has an Automated_Testing facility when POST requests are sent remotely in a text file(each .txt file should contain 1 URL).
+A Web Application that ineURLs from r/india as inputs and predicts the flair of the post based on a Machine Learning model created using the Linear Support Vector Machine Algorithm. The application is hosted on Heroku Cloud Platform[3] and could be tried at https://sai9.herokuapp.com/ . It also has an Automated_Testing facility when POST requests are sent remotely in a text file(each .txt file should contain 1 URL).
 ## Directory Structure
 Python has been used to develop the application and several libraries have been implemented. The libraries are :
 * PRAW
@@ -51,7 +51,7 @@ After understanding the task in depth, and going through various open source doc
 * Comments
 * COMBINED which is an amalgamate of Title and Comments
 7. The dataset is split into 70% train and 30% test data using train-test split.
-8. It is nextly converted into a Vector, TD-IDF form and then the following algorithms are applied on the dataset.
+8. It is nextly converted into a Vector, TD-IDF form and then the following algorithms are applied on the dataset.[2]
 * Naive-Bayes
 * Linear Support Vector Machine
 * Logistic Regression
@@ -69,7 +69,6 @@ files = {'upload_file': open('file.txt','rb')}
  r = requests.post(url, files=files)
 
 ~~~~
-
 
 ## Results
 #### Title as Feature
@@ -116,3 +115,8 @@ files = {'upload_file': open('file.txt','rb')}
 | Logistic Regression <br />       | 0.6098 |
 | Random Forest <br />       | 0.6439 |
 | MLP <br />       | 0.4583 |
+
+## References
+[https://www.storybench.org/how-to-scrape-reddit-with-python/][1]
+[https://nlp.stanford.edu/IR-book/html/htmledition/choosing-what-kind-of-classifier-to-use-1.html][2]
+[https://blog.cambridgespark.com/deploying-a-machine-learning-model-to-the-web-725688b851c7][3]
