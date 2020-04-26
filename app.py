@@ -11,7 +11,7 @@ import json
 import requests
 nltk.download("stopwords")
 
-reddit = praw.Reddit(client_id='3SYchvDH__igSg', client_secret='ZT-laFvDosSedAE_qPJ0dnkGtdA', user_agent='Scrapping Reddit_data')
+reddit = praw.Reddit(client_id='###', client_secret='###', user_agent='Scrapping Reddit_data')
 subreddit = reddit.subreddit('india')
 
 model = pickle.load(open('model/model.pkl','rb'))
