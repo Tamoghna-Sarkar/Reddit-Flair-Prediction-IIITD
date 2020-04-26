@@ -1,5 +1,5 @@
 # Reddit-Flair-Prediction-IIITD
-A Web Application that inputs URLs from r/india as inputs and predicts the flair of the post based on a Machine Learning model created using the Linear Support Vector Machine Algorithm. The application is hosted on Heroku Cloud Platform[3] and could be tried at https://sai9.herokuapp.com/ . It also has an Automated_Testing facility when POST requests are sent remotely in a text file(each .txt file should contain 1 URL).
+A Web Application that inputs URLs from r/india as inputs and predicts the flair of the post based on a Machine Learning model created using the Linear Support Vector Machine Algorithm. The application is hosted on Heroku Cloud Platform[3] and could be tried at https://flairintity.herokuapp.com/ . It also has an Automated_Testing facility when POST requests are sent remotely in a text file(each .txt file should contain 1 URL).
 ## Directory Structure
 Python has been used to develop the application and several libraries have been implemented. The libraries are :
 * PRAW
