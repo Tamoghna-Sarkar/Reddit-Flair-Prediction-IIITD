@@ -4,8 +4,9 @@ A Web Application that ineURLs from r/india as inputs and predicts the flair of 
 Python has been used to develop the application and several libraries have been implemented. The libraries are :
 Bullet list
 PRAW
-SCIKITLEARN
-Bullet 
+Markup : * Bullet list
+
+SCIKITLEARN 
 NUMPY
 NTLK
 PANDAS
