@@ -3,6 +3,6 @@ nltk==3.5
 numpy==1.18.1
 pandas==1.0.3
 praw==6.5.1
-requests==2.23.0
+requests==2.31.0
 scikit-learn==0.22.2.post1
 gunicorn
